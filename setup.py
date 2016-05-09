@@ -52,25 +52,5 @@ setup(
         'console_scripts': [
             'manage = plone.releaser.manage:manage',
         ],
-        'zest.releaser.prereleaser.before': [
-            ('set_nothing_changed_yet='
-             'plone.releaser.release:set_nothing_changed_yet'),
-            ('set_required_changelog='
-             'plone.releaser.release:set_required_changelog'),
-            ('cleanup_changelog='
-             'plone.releaser.release:cleanup_changelog'),
-        ],
-        'zest.releaser.prereleaser.middle': [
-            # Note: we explicitly call cleanup_changelog twice.
-            ('cleanup_changelog='
-             'plone.releaser.release:cleanup_changelog'),
-            'check_pypi=plone.releaser.release:check_pypi_access',
-        ],
-        'zest.releaser.releaser.after': [
-            'update_core=plone.releaser.release:update_core',
-        ],
-        'zest.releaser.postreleaser.before': [
-            'set_new_changelog=plone.releaser.release:set_new_changelog',
-        ],
     },
 )
