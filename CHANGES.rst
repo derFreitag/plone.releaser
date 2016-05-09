@@ -6,16 +6,8 @@ Changelog
 
 Breaking changes:
 
-- *add item here*
-
-New features:
-
-- *add item here*
-
-Bug fixes:
-
-- *add item here*
-
+- Remove all entry points for der Freitag internal usage.
+  [gforcada]
 
 1.5.1 (2016-04-28)
 ------------------
