@@ -8,6 +8,25 @@ Changelog
 
 .. towncrier release notes start
 
+1.7.0.post0 (2018-11-22)
+------------------------
+
+Breaking changes:
+
+
+- Remove a few zest.releaser entrypoints that are not useful for der Freitag.
+  [gforcada] (#123)
+
+
+Bug fixes:
+
+
+- Python 3 compatibility fix for xmlrpclib/xmlrpc import differences.
+  [esteele] (#21)
+- Fix pypi URL.
+  [gforcada] (#23)
+
+
 1.7.0 (2018-10-01)
 ------------------
 
