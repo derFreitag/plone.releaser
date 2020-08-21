@@ -8,6 +8,16 @@ Changelog
 
 .. towncrier release notes start
 
+1.8.2.post0 (2020-08-21)
+------------------------
+
+Breaking changes:
+
+
+- Remove a few zest.releaser entrypoints that are not useful for der Freitag.
+  [gforcada] (#123)
+
+
 1.8.2 (2020-06-26)
 ------------------
 
